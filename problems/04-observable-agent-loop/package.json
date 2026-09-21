@@ -1,0 +1,25 @@
+{
+  "name": "04-observable-agent-loop",
+  "version": "1.0.0",
+  "description": "An incident investigator needs an AI agent that can collect evidence from multiple sources before producing an answer. A single model response is not sufficient: the system must control tool execution, expose what happened, handle failures, and stop safely.",
+  "main": "index.js",
+  "scripts": {
+  "build": "tsc",
+  "dev": "tsx src/index.ts",
+  "test": "vitest run",
+  "test:watch": "vitest"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.1",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
+  }
+}
